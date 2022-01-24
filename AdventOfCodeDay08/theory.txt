@@ -1,0 +1,30 @@
+acedgfb cdfbe gcdfa fbcad dab cefabd cdfgeb eafb cagedb ab | cdfeb fcadb cdfeb cdbaf
+
+cdfbe gcdfa fbcad cefabd cdfgeb cagedb
+
+ab used in 1l a,b is c,f
+dab used in 7; d is a
+eafb used in 4; e,f is b,d
+acedgfb used in 8; cg
+
+cdfbe gcdfa fbcad intersect all = cdf
+
+1 has 2 segments (UPPERRIGHT, LOWERRIGHT)
+7 has 3 segments (UPPER, UPPERRIGHT, LOWERRIGHT}
+4 has 4 segments (UPPERLEFT, UPPERRIGHT, MIDDLE, LOWERRIGHT)
+8 has 7 segments all segments
+
+2,3,5 has 5 segments: intersect all = UPPER, MIDDLE, BOTTOM
+0,6,9 has 6 segments: intersect all = UPPER, BOTTOM, UPPERLEFT, LOWERRIGHT
+
+                    UPPER
+
+  UPPERLEFT                         UPPERRIGHT
+
+                    MIDDLE
+
+  LOWERLEFT                         LOWERRIGHT
+
+                    BOTTOM
+
+UPPER = 3 segments - 2 segments

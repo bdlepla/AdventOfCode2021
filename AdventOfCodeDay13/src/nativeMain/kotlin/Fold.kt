@@ -1,0 +1,1 @@
+data class Fold(val which:Char, val where:Int)
